@@ -5,8 +5,8 @@ import networkx as nx
 
 """Genera una topologia de red de tipo BCube"""
 
-"""RECIBE el parametro k que debe ser un numero >= 1 y el parametro n
-DEVUELVE un grafo de nx"""
+"""RECIBE dos enteros q, p; tales que q < p and q < 4
+DEVUELVE un la matriz de adjacency del BCube generado"""
 
 def generate_servers(n, k):
     G = nx.Graph()
@@ -40,5 +40,5 @@ def generate_bcube(q, p):
     G = generate_servers(q, p)
     G = connect_levels(G)
     G.graph['name'] = "BCube"
-    A = nx.adjacency_matrix(G)
-    return A
+    #A = nx.adjacency_matrix(G)
+    return G
