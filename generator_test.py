@@ -23,7 +23,7 @@ def dcn_generator(graph_name, p, q, path):
         G = hypercube.generate_hypercube(p)
     edges = G.edges()
     H = nx.from_edgelist(edges)
-    graphml =nx.write_graphml(H, path+G.graph['name']+"test.graphml")
+    graphml =nx.write_graphml(H, path)
 
 
 #integers q, p
