@@ -25,7 +25,10 @@ elif graph_name == "bubble_sort":
 elif graph_name == "hypercube":
     G = hypercube.generate_hypercube(p)
 edges = G.edges()
+print G.nodes(data=True)
 H = nx.from_edgelist(edges)
+H.node[1]['co']='red'
+print H.nodes(data=True)
 graphml =nx.write_graphml(H, path)
 
 '''
@@ -39,6 +42,7 @@ q=2
 p=3
 dcn_generator("dcell",p,q,path)
 #cayley
+
 p=6
 dcn_generator('bubble_sort',p,q,path)
 dcn_generator('hypercube',p,q,path)

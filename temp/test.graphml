@@ -1,7 +1,10 @@
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="co" attr.type="string" for="node" id="d0" />
   <graph edgedefault="undirected">
     <node id="0" />
-    <node id="1" />
+    <node id="1">
+      <data key="d0">red</data>
+    </node>
     <node id="2" />
     <node id="3" />
     <node id="4" />
