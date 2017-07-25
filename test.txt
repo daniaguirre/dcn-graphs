@@ -1,0 +1,25 @@
+Command:
+python generator_test.py graph_name p q file_name
+
+Parameters:
+- graph_name: bcube, dcell, fat_tree, bubble_sort, hypercube, pancake, transposition, star
+- p: integer,
+    for fat_tree, p muts be even
+- q: integer less than 4 and p,  only used for DCell and BCube
+- file_name: name of the ouyput file
+
+Output file:
+Its location is temp/file_name
+It contains the graph's definition in graphml format
+
+*********  Examples ************
+python generator_test.py bcube 4 3 bcube.txt
+python generator_test.py dcell 5 2 dcell.txt
+python generator_test.py fat_tree 4 4 fatTree.txt
+python generator_test.py bubble_sort 5 5 bubble_sort.txt
+python generator_test.py hypercube 5 5 hypercube.txt
+python generator_test.py pancake 5 5 pancake.txt
+python generator_test.py transposition 6 5 transposition.txt
+
+
+
