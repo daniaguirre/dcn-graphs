@@ -18,6 +18,6 @@ def generate_bubble_sort(n):
     G.graph["name"] = "bubble_sort"
     G.graph["n"] = n
     G.graph["generators"] = result[1]
-    G.add_node(tuple(result[0]), {'id': tuple(result[0]), 'type': 'server'})
+    G.add_node(tuple(result[0]), id=tuple(result[0]), type='server')
     G = sc.set_connections(G)
     return G
