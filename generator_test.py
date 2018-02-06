@@ -9,6 +9,7 @@ import cayley_graphs.generate_pancake as pancake
 import cayley_graphs.generate_transposition as transposition
 import cayley_graphs.generate_star as star
 import cayley_graphs.generate_butterfly as butterfly
+import slim_fly.generate_slim_fly as slimFly
 
 graph_name  = sys.argv[1]
 p = int(sys.argv[2])
@@ -37,11 +38,15 @@ elif graph_name == "star":
     G = star.generate_star_graph(p)
 elif graph_name == "butterfly":
     G = butterfly.generate_butterfly(p)
+elif graph_name == "slim_fly":
+    # p = 5,7,11,17,19,25,29,35,43,47,55,79
+    G = slimFly.generate_slim_fly(p)
 
 edges = G.edges()
 #print G.nodes(data=True)
 H = nx.from_edgelist(edges)
 #changing color of nodes
 #H.node[1]['co']='red'
-#print H.nodes(data=True)
-nx.write_graphml(H, path)
+nodes = len(H.nodes(data=True))
+print nodes
+nx.write_graphml(H, path + str(nodes))
