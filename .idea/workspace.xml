@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9469ce9-8ced-4b50-9150-0c4115079491" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/buble_sort.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dcn-graphs.iml" afterPath="$PROJECT_DIR$/.idea/dcn-graphs.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cayley_graphs/generate_bubble_sort.py" afterPath="$PROJECT_DIR$/cayley_graphs/generate_bubble_sort.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cayley_graphs/generate_butterfly.py" afterPath="$PROJECT_DIR$/cayley_graphs/generate_butterfly.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cayley_graphs/generate_hypercube.py" afterPath="$PROJECT_DIR$/cayley_graphs/generate_hypercube.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cayley_graphs/set_connections.py" afterPath="$PROJECT_DIR$/cayley_graphs/set_connections.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generator_test.py" afterPath="$PROJECT_DIR$/generator_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/butterfly.txt" afterPath="$PROJECT_DIR$/temp/butterfly.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/hypercube.txt" afterPath="$PROJECT_DIR$/temp/hypercube.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dcell/generate_dcell.py" afterPath="$PROJECT_DIR$/dcell/generate_dcell.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/bcube.txt" afterPath="$PROJECT_DIR$/temp/bcube.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,8 +20,8 @@
       <file leaf-file-name="generator_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/generator_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="46" column="25" lean-forward="true" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
+            <state relative-caret-position="741">
+              <caret line="45" column="1" lean-forward="false" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -39,14 +29,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="generate_hypercube.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cayley_graphs/generate_hypercube.py">
+      <file leaf-file-name="generate_dcell.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dcell/generate_dcell.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="69" lean-forward="true" selection-start-line="20" selection-start-column="69" selection-end-line="20" selection-end-column="69" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-238">
+              <caret line="81" column="26" lean-forward="false" selection-start-line="81" selection-start-column="26" selection-end-line="81" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -62,9 +50,15 @@
         <option value="$PROJECT_DIR$/cayley_graphs/generate_butterfly.py" />
         <option value="$PROJECT_DIR$/cayley_graphs/set_connections.py" />
         <option value="$PROJECT_DIR$/cayley_graphs/generate_bubble_sort.py" />
-        <option value="$PROJECT_DIR$/generator_test.py" />
         <option value="$PROJECT_DIR$/temp/bubble_sort.txt" />
         <option value="$PROJECT_DIR$/cayley_graphs/generate_hypercube.py" />
+        <option value="$PROJECT_DIR$/cayley_graphs/generate_pancake.py" />
+        <option value="$PROJECT_DIR$/temp/pancake.txt" />
+        <option value="$PROJECT_DIR$/cayley_graphs/generate_star.py" />
+        <option value="$PROJECT_DIR$/cayley_graphs/generate_transposition.py" />
+        <option value="$PROJECT_DIR$/generator_test.py" />
+        <option value="$PROJECT_DIR$/temp/bcube.txt" />
+        <option value="$PROJECT_DIR$/dcell/generate_dcell.py" />
       </list>
     </option>
   </component>
@@ -98,7 +92,12 @@
             <path>
               <item name="dcn-graphs" type="b2602c69:ProjectViewProjectNode" />
               <item name="dcn-graphs" type="462c0819:PsiDirectoryNode" />
-              <item name="cayley_graphs" type="462c0819:PsiDirectoryNode" />
+              <item name="bcube" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dcn-graphs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dcn-graphs" type="462c0819:PsiDirectoryNode" />
+              <item name="dcell" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dcn-graphs" type="b2602c69:ProjectViewProjectNode" />
@@ -219,16 +218,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/generator_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="46" column="25" lean-forward="true" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cayley_graphs/generate_hypercube.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -236,6 +225,78 @@
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/temp/pancake.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cayley_graphs/generate_pancake.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="69" lean-forward="false" selection-start-line="19" selection-start-column="69" selection-end-line="19" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cayley_graphs/generate_star.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="69" lean-forward="false" selection-start-line="20" selection-start-column="69" selection-end-line="20" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cayley_graphs/generate_transposition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="69" lean-forward="false" selection-start-line="23" selection-start-column="69" selection-end-line="23" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/temp/bcube.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9196">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/temp/dcell.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="45" column="1" lean-forward="false" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dcell/generate_dcell.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-238">
+          <caret line="81" column="26" lean-forward="false" selection-start-line="81" selection-start-column="26" selection-end-line="81" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>

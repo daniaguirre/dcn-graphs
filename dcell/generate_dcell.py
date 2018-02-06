@@ -79,7 +79,7 @@ def connect_servers(G):
     @return: the received graph G (in Networkx format) with connections (edges) between its servers
     '''
 
-    nodes = G.nodes()
+    nodes = list(G.nodes())
 
     #set the connections (edges) for each node
     while len(nodes) > 0:
